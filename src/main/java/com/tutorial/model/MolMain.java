@@ -20,7 +20,7 @@ public class MolMain {
 	
 	private Long orderId;
 	
-	private String description_1;
+	//private String description_1;
 	
 	private Long plannedQuantity;
 	
@@ -30,15 +30,15 @@ public class MolMain {
 	
 	private Long initialPlannedValue;
 	
-	private Timestamp planned_Availability_Date;
+	//private Timestamp planned_Availability_Date;
 	
-	private Long min_Order_Quantity;
+	//private Long min_Order_Quantity;
 	
 	private Long stockQuantity;
 	
 	private Long safetyStock;
 	
-	private Long max_Maximum_Stock;
+	//private Long max_Maximum_Stock;
 	
 	private String categoryFamily;
 	
@@ -52,17 +52,17 @@ public class MolMain {
 	
 	private String supplierVariantCodeDesc;
 	
-	private String product_Group;
+	//private String product_Group;
 	
-	private String product_Group_Facing;
+	//private String product_Group_Facing;
 	
 	private String abcCategory;
 	
 	private Long salesPrice;
 	
-	private String category_Full_Name;
+	//private String category_Full_Name;
 	
-	private Long calcPrice;
+	//private Long calcPrice;
 	
 	private int isValidated;
 	
@@ -86,7 +86,7 @@ public class MolMain {
 	
 	private Long supplierId;
 	
-	private String category_Level_Name;
+	//private String category_Level_Name;
 	
 	private String masterProductCodeDesc;
 	
@@ -106,7 +106,7 @@ public class MolMain {
 	
 	private String supplierVariantName;
 	
-	private Long outbound_Sold_Quantity;
+	//private Long outbound_Sold_Quantity;
 	
 	private String outboundUnsoldQtyList;
 	
@@ -174,14 +174,6 @@ public class MolMain {
 		this.orderId = orderId;
 	}
 
-	public String getDescription_1() {
-		return description_1;
-	}
-
-	public void setDescription_1(String description_1) {
-		this.description_1 = description_1;
-	}
-
 	public Long getPlannedQuantity() {
 		return plannedQuantity;
 	}
@@ -214,22 +206,6 @@ public class MolMain {
 		this.initialPlannedValue = initialPlannedValue;
 	}
 
-	public Timestamp getPlanned_Availability_Date() {
-		return planned_Availability_Date;
-	}
-
-	public void setPlanned_Availability_Date(Timestamp planned_Availability_Date) {
-		this.planned_Availability_Date = planned_Availability_Date;
-	}
-
-	public Long getMin_Order_Quantity() {
-		return min_Order_Quantity;
-	}
-
-	public void setMin_Order_Quantity(Long min_Order_Quantity) {
-		this.min_Order_Quantity = min_Order_Quantity;
-	}
-
 	public Long getStockQuantity() {
 		return stockQuantity;
 	}
@@ -244,14 +220,6 @@ public class MolMain {
 
 	public void setSafetyStock(Long safetyStock) {
 		this.safetyStock = safetyStock;
-	}
-
-	public Long getMax_Maximum_Stock() {
-		return max_Maximum_Stock;
-	}
-
-	public void setMax_Maximum_Stock(Long max_Maximum_Stock) {
-		this.max_Maximum_Stock = max_Maximum_Stock;
 	}
 
 	public String getCategoryFamily() {
@@ -302,22 +270,6 @@ public class MolMain {
 		this.supplierVariantCodeDesc = supplierVariantCodeDesc;
 	}
 
-	public String getProduct_Group() {
-		return product_Group;
-	}
-
-	public void setProduct_Group(String product_Group) {
-		this.product_Group = product_Group;
-	}
-
-	public String getProduct_Group_Facing() {
-		return product_Group_Facing;
-	}
-
-	public void setProduct_Group_Facing(String product_Group_Facing) {
-		this.product_Group_Facing = product_Group_Facing;
-	}
-
 	public String getAbcCategory() {
 		return abcCategory;
 	}
@@ -332,22 +284,6 @@ public class MolMain {
 
 	public void setSalesPrice(Long salesPrice) {
 		this.salesPrice = salesPrice;
-	}
-
-	public String getCategory_Full_Name() {
-		return category_Full_Name;
-	}
-
-	public void setCategory_Full_Name(String category_Full_Name) {
-		this.category_Full_Name = category_Full_Name;
-	}
-
-	public Long getCalcPrice() {
-		return calcPrice;
-	}
-
-	public void setCalcPrice(Long calcPrice) {
-		this.calcPrice = calcPrice;
 	}
 
 	public int getIsValidated() {
@@ -438,14 +374,6 @@ public class MolMain {
 		this.supplierId = supplierId;
 	}
 
-	public String getCategory_Level_Name() {
-		return category_Level_Name;
-	}
-
-	public void setCategory_Level_Name(String category_Level_Name) {
-		this.category_Level_Name = category_Level_Name;
-	}
-
 	public String getMasterProductCodeDesc() {
 		return masterProductCodeDesc;
 	}
@@ -516,14 +444,6 @@ public class MolMain {
 
 	public void setSupplierVariantName(String supplierVariantName) {
 		this.supplierVariantName = supplierVariantName;
-	}
-
-	public Long getOutbound_Sold_Quantity() {
-		return outbound_Sold_Quantity;
-	}
-
-	public void setOutbound_Sold_Quantity(Long outbound_Sold_Quantity) {
-		this.outbound_Sold_Quantity = outbound_Sold_Quantity;
 	}
 
 	public String getOutboundUnsoldQtyList() {
@@ -629,7 +549,4 @@ public class MolMain {
 	public void setAlertSuspIcon(String alertSuspIcon) {
 		this.alertSuspIcon = alertSuspIcon;
 	}
-
-
-
 }
