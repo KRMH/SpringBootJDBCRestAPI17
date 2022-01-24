@@ -1,6 +1,7 @@
 package com.tutorial.model;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -134,6 +135,9 @@ public class MolMain {
 	
 	private String alertSuspIcon;
 
+	private List<FcOrderLineAlert> fcOrderLineAlert;
+	
+	
 	public Long getId() {
 		return id;
 	}
@@ -549,4 +553,14 @@ public class MolMain {
 	public void setAlertSuspIcon(String alertSuspIcon) {
 		this.alertSuspIcon = alertSuspIcon;
 	}
+
+	public List<FcOrderLineAlert> getFcOrderLineAlert() {
+		return fcOrderLineAlert;
+	}
+
+	public void setFcOrderLineAlert(List<FcOrderLineAlert> fcOrderLineAlert) {
+		this.fcOrderLineAlert = fcOrderLineAlert;
+	}
+
+
 }
